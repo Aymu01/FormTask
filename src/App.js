@@ -7,6 +7,7 @@ import Person from './components/person/person';
 function App() {
   const data = useSelector((state) => state.form.data)
   const dispatch = useDispatch()
+
   console.log(data);
   return (
     <div className={Style.App}>
